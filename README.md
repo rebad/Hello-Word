@@ -1,4 +1,3 @@
 Hello-Word
 ==========
-This is a readme file.
-Commit.
+Dummy project to test

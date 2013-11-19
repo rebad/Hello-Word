@@ -1,0 +1,71 @@
+#fournisseursTable{
+	width:100%;
+}
+a.action {
+	display:inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: left top;
+	height:16px;
+	width:16px;
+    vertical-align: middle;
+    text-decoration:none;
+}
+a.action.voir {
+	background-image: url('../images/dataTables/details.png');
+}
+a.action.supprimer{
+	background-image: url('../images/dataTables/delete.png');
+}
+a.action.modifier{
+	background-image: url('../images/dataTables/modify.png');
+}
+a.action.creation{
+	background-image: url('../images/dataTables/creation.png');
+}
+a.action.sauvegarder{
+	background-image: url('../images/dataTables/filesave.png');
+}
+a.action.home{
+	background-image: url('../images/dataTables/home.png');
+}
+
+#hautDePage {
+	height:60px;
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom:20px;
+	padding-top:2px;
+}
+#hautDePageGauche {
+	float:left;	
+}
+#hautDePageDroit {
+	float:right;
+}
+
+#contenu{
+	padding:10px;
+	padding-top:20px;	
+}
+
+#basDePage {
+	font-size: 80%;
+    margin-top: 6px;
+    padding-bottom: 20px;
+    text-align:center;
+}
+
+#ajouterFournisseur {
+	padding:5px;
+}
+
+#fournisseurEditerView {
+	width:500px;
+	margin:auto;
+}
+
+#fournisseurView {
+	width:500px;
+	margin:auto;
+}

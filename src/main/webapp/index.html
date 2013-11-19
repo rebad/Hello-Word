@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<link rel="icon" type="image/ico" href="images/favicon.png">
+<link type="text/css" href="css/custom-theme/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
+<link type="text/css" href="css/dataTables.css" rel="stylesheet" />
+<link type="text/css" href="css/dummy.css" rel="stylesheet" />
+
+<title>Dummy</title>
+<!--[if lte IE 8]>
+<script language="javascript" type="text/javascript" src="js/ie/json2.js"></script>
+<script language="javascript" type="text/javascript" src="js/ie/Object.create.js"></script>
+<script language="javascript" type="text/javascript" src="js/ie/Date.toISOString.js"></script>
+<![endif]-->
+
+<script type="text/javascript">function getContextPath() { return "siae"; }</script>
+
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
+<script type="text/javascript" src="js/underscore.js"></script>
+<script type="text/javascript" src="js/backbone.js"></script>
+<script type="text/javascript" src="js/jquery.dataTables.js"></script>
+<script type="text/javascript" src="js/dummy.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready( function() {
+	var router = new siae.modules.FournisseurRouter();
+	Backbone.history.start();
+});
+
+</script>
+
+</head>
+<body>
+<div id="hautDePage">
+	<div id="hautDePageGauche"><h3>
+		&nbsp;Dummt</h3>
+	</div>
+	<div id="hautDePageDroit">
+		<a class="action home" href="/siae/"></a>
+	</div>
+
+</div>
+	
+<div id="contenu"></div>
+
+<div id="basDePage">dummy v0</div>
+</body>
+<!--<script type="text/template" id="viewFournisseurTemplate">-->
+<!--<table>-->
+<!--	<tr><td>Id fournisseur</td><td><%= id %></td></tr>-->
+<!--	<tr><td>Nom fournisseur</td><td><%= name %></td></tr>-->
+<!--</table>-->
+<!--</script>-->
+</html>
